@@ -1,0 +1,145 @@
+body {
+  font-family: sans-serif;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.Image-disp {
+  max-width: 300px;
+}
+
+.Todopage-title {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #453c52;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+/*
+h1.Todopage-title{
+	color: darkcyan;
+}*/
+
+.PageTitle {
+  color: darkorange;
+}
+
+.TodoSection {
+  margin-bottom: 20px;
+  margin-left: 32px;
+  /*padding: 32px;*/
+}
+
+.TodoSection-head {
+  display: flex;
+  height: 24px;
+  align-items: stretch;
+  margin-bottom: 24px;
+}
+
+.TodoSection-SubSection {
+  display: flex;
+}
+
+.TodoSection-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  line-height: 1.2;
+  color: #453c52;
+}
+
+.TodoSection-counter {
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.TodoSectionTitle {
+  display: flex;
+  color: #453c52;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.TodoSectionTitle-text {
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 8px;
+  line-height: 1.2;
+}
+
+.TodoSectionTitle-remainingCount {
+  font-size: 12px;
+}
+
+.TodoItem {
+  font-size: 14px;
+  margin-left: 8px;
+  margin-bottom: 6px;
+  color: #453c52;
+}
+
+.Todosection-todo {
+  font-size: 12px;
+  line-height: 1.2;
+  margin-left: 10px;
+  color: #453c52;
+  display: inline;
+}
+
+.Todosection-todo-overdue {
+  color: #c53030;
+}
+
+.AppendTodo-text {
+  padding: 6px 6px;
+  font-size: 12px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #bfb8cc;
+  color: #453c52;
+}
+
+li {
+  list-style: none;
+}
+
+.AppendTodo-button {
+  border: 1px solid transparent;
+  background-color: #48bb78;
+}
+
+.TodoItem-list {
+  font-size: 14px;
+  color: #453c52;
+}
+
+.TodoItem-container {
+  display: flex;
+  padding: 2px 8px;
+  align-items: center;
+}
+
+.TodoItem-checkbox {
+  width: 16px;
+  height: 16px;
+}
+
+.TodoItem-container:hover {
+  background-color: lightgray;
+  cursor: pointer;
+  visibility: visible;
+  width: fit-content;
+}
+.TodoItem-list:hover .TodoItem_DeleteButton {
+  background-color: lightgray;
+  cursor: pointer;
+  visibility: visible;
+}
+
+.TodoItem_DeleteButton {
+  visibility: hidden;
+}

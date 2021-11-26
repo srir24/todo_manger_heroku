@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ToDO Manager App</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="todo-app.css">
+</head>
+
+<body>
+	<main class="TodoPage">
+		<article>
+			<h1 class="Todopage-title">My Todo-list</h1>
+			<section class="TodoSection-head">
+				<input class="AppendTodo-text" type="text" placeholder="What's next?" />
+				<input class="AppendTodo-text" type="date" placeholder="dd-mm-yyyy" />
+				<input class="AppendTodo-button AddTodo-button" type="button" value="Add" />
+			</section>
+			<section class="TodoSection">
+				<div class="TodoSection-SubSection">
+					<p class="TodoSection-title">Due Today</p>
+					<p class="TodoSection-counter">0/4</p>
+				</div>
+				<label class="AddTodo">
+					<ul>
+						<li class="TodoItem-list">
+							<div class="TodoItem-container">
+								<input class="TodoItem-checkbox" type="checkbox">
+								Submit SaaS 201 project
+								<p class="Todosection-todo Todosection-todo-overdue">overdue</p>
+								<div class="TodoItem_DeleteButton">
+									<img src="delete.png" alt="Delete" width="25" height="30" />
+								</div>
+							</div>
+						</li>
+						<li class="TodoItem-list">
+							<div class="TodoItem-container">
+								<input class="TodoItem-checkbox" type="checkbox">
+								Call accountant
+								<div class="TodoItem_DeleteButton">
+									<img src="delete.png" alt="Delete" width="25" height="30" />
+								</div>
+							</div>
+						</li>
+					</ul>
+				</label>
+			</section>
+			<section class="TodoSection">
+				<div class="TodoSection-SubSection">
+					<p class="TodoSection-title">Due Tomorrow</p>
+					<p class="TodoSection-counter">0/3</p>
+				</div>
+				<label class="AddTodo">
+					<ul>
+						<li class="TodoItem-list">
+							<div class="TodoItem-container">
+								<input class="TodoItem-checkbox" type="checkbox">
+								Refill groceries
+								<div class="TodoItem_DeleteButton">
+									<img src="delete.png" alt="Delete" width="25" height="30" />
+								</div>
+							</div>
+						</li>
+					</ul>
+				</label>
+			</section>
+			<section class="TodoSection">
+				<div class="TodoSection-SubSection">
+					<p class="TodoSection-title">Remaining</p>
+					<p class="TodoSection-counter">0/3</p>
+				</div>
+				<label class="AddTodo">
+					<ul>
+						<li class="TodoItem-list">
+							<div class="TodoItem-container">
+								<input class="TodoItem-checkbox" type="checkbox">Complete Level 6
+								<p class="Todosection-todo">Nov 24</p>
+								<div class="TodoItem_DeleteButton">
+									<img src="delete.png" alt="Delete" width="25" height="30" />
+								</div>
+							</div>
+						</li>
+						<li class="TodoItem-list">
+							<div class="TodoItem-container">
+								<input class="TodoIten-Checkbox" type="checkbox">Buy Gas
+								<p class="Todosection-todo">Nov 25 </p>
+								<div class="TodoItem_DeleteButton">
+									<img src="delete.png" alt="Delete" width="25" height="30" />
+								</div>
+							</div>
+						</li>
+						<li class="TodoItem-list">
+							<div class="TodoItem-container">
+								<input class="TodoIten-Checkbox" type="checkbox">Buy Wheat
+								<p class="Todosection-todo">Nov 26 </p>
+								<div class="TodoItem_DeleteButton">
+									<img src="delete.png" alt="Delete" width="25" height="30" />
+								</div>
+							</div>
+						</li>
+					</ul>
+				</label>
+			</section>
+		</article>
+	</main>
+</body>
+
+</html>
